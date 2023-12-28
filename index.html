@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Mohammad Faizi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo>">Mohammad Faizi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="rounded" src="./assets/Faizi_pic.jpg" alt=" Tarmizi pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Introducing</p>
+            <h1 class="title">Mohammad Faizi Bin Zilani</h1>
+            <p class="section__text__p2">Technician</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Resume Faizi.pdf')">
+                Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+            </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin icon.png" alt="LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/faizi-zilani-270b582a6/'">
+                <img src="./assets/github icon.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/Faizee00/Portfolio'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1"> Get to know more</p>
+        <h1 class="title">About me</h1>
+        <!--
+            <div class="section__pic-container">
+            <img 
+                src="./assets/H4 trendline break.png" 
+                alt="profile picture"
+                class="about-pic"
+            />
+        </div>
+        -->
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience icon.png" alt="experience icon" class="icon">
+                    <h3>Experience</h3>
+                    <p>1+ years <br> -Technician</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/education icon.png" alt="education icon" class="icon">
+                <h3>Education</h3>
+                <p>-Diploma in Mechanical Engineering (Automotive) <br> -Light Vehicle Services Certificate</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>I am a motivate person seeking for a full-timeposition in the 
+                    reputable industries, where I canenhance my skills and gain more 
+                    knowledge forthe continuous improvement. I am confident withmy 
+                    positive attitude and I will be another asset tothe company.
+                </p>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title"> Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-tittle">Intern at LON G SETIA AUTO SDN. BHD.</h2>
+                    <div class="article-container">
+                        <article>
+
+                            <div>
+                                <p>- Assisting in maintaining an organize, neat, and
+                                    safe work area.</p>
+                            </div>
+                        </article>
+                        <article>
+
+                            <div>
+                                <p>- Working out the estimate time for vehicles repair or service.
+                                    Assisting in diagnose and repair automotive problems.</p>
+                            </div>
+                        </article>
+                        <article>
+
+                            <div>
+                                <p>- Performing all other duties as assign by the supervisor.</p>
+                            </div>
+                        </article>
+                        <article>
+
+                            <div>
+                                <p>- Assisting in replacing damage vehicle parts.</p>
+                            </div>
+                        </article>
+                        <article>
+
+                            <div>
+                                <p>- Cleaning and washing vehicles so they are in a 
+                                    good statewhen handed back to the customer.</p>
+                            </div>
+                        </article>
+                        <article>
+
+                            <div>
+                                <p>- Assisting in road testing vehicles to ensure they are safe todrive.</p>
+                            </div>
+                        </article>
+                    </div>
+
+            </div>                    
+                <div class="details-container">
+                <h2 class="experience-sub-tittle">Assistance Technician at Iznor Electrical Engineering</h2>
+                <div class="article-container">
+                    <article>
+                        <div>
+                            <p>- Troubleshoot general electrical appliances.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div>
+                            <p>- Preventative maintenance air compressor.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </div></section>
+    <section id="projects">
+        <p class="section__text__p1">Browse my recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/H4 trendline break.png" alt="project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        live demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/H4 trendline break.png" alt="project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        live demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/H4 trendline break.png" alt="project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        live demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/gmail icon.png" alt="Email icon" class="icon contact-icon">
+            <p><a href="mailto:faizizilani13@gmail.com">faizizilani13@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin icon.png" alt="linkedin icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/faizi-zilani-270b582a6/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+           <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+           </div>
+        </nav>
+        <p>Copyright © 2023 Faizi Zilani. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body></html>
